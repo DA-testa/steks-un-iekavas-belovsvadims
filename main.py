@@ -29,7 +29,7 @@ def find_mismatch(text):
 
 def main():
 
-    choice = input("I - ievade ar klaviaturu; F - pievienot failu\n")
+    choice = input()
     if choice == "I":
         text = input()
         mismatch = find_mismatch(text)
