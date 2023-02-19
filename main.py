@@ -30,8 +30,8 @@ def main():
     text = input()
     if text == "F":
     else:    
-        text = input()
-    mismatch = find_mismatch(text)
+        text1 = input()
+    mismatch = find_mismatch(text1)
     # Printing answer, write your code here
     print(mismatch)
 
