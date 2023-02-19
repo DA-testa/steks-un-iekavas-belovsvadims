@@ -28,11 +28,19 @@ def find_mismatch(text):
     return "Success"
 
 def main():
-    text = input()
-    # Printing answer, write your code here
-    text1 = input()
-    mismatch = find_mismatch(text1)
-    print(mismatch)
 
+    choice = input("I - ievade ar klaviaturu; F - pievienot failu\n")
+    if choice == "I":
+        text = input()
+        mismatch = find_mismatch(text)
+        print(mismatch)
+    elif choice == "F":
+        fPath = input("Faila atrasanas vieta : ")
+        with open(fPath) as f:
+            text = f.read()
+            mismatch = find_mismatch(text)
+            print(mismatch)
+    else:
+        print("Tada opcija neeksiste!")
 if __name__ == "__main__":
     main()
