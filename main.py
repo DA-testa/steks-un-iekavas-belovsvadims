@@ -1,3 +1,4 @@
+# Vadims Belovs 221RDB129 11.grupa DITF
 # python3
 
 from collections import namedtuple
