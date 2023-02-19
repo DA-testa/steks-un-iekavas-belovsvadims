@@ -41,6 +41,8 @@ def main():
             mismatch = find_mismatch(text)
             print(mismatch)
     else:
-        #print("Tada opcija neeksiste!")
+        text = input()
+        mismatch = find_mismatch(text)
+        print(mismatch)
 if __name__ == "__main__":
     main()
