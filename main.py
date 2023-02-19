@@ -42,6 +42,5 @@ def main():
             print(mismatch)
     else:
         print("Tada opcija neeksiste!")
-        
 if __name__ == "__main__":
     main()
